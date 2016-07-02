@@ -1,0 +1,141 @@
+body {
+	width: 100%;
+	font-family: "Open Sans" sans-serif; 
+	background-color: #f9f9f9;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.container {
+	width: 1060px;
+	margin: 0 auto;
+	padding: 50px 50px 60px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(219,219,219,1);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(219,219,219,1);
+	box-shadow: 0px 0px 5px 1px rgba(219,219,219,1);
+	box-shadow: -2px -1px 2px rgba(0,0,0,0.15), 
+	2px -1px 2px rgba(0,0,0,0.15);
+}
+
+a {
+	text-decoration: none;
+}
+
+.header_nav {
+	margin-top: 40px;
+	line-height: 40px;
+	background-image: url(top.png);
+}
+
+.header_nav li {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+
+.header_nav li a {
+	display: inline-block;
+	color: white;
+	margin-right: 40px;
+	min-width: 100px;
+}
+
+.header_nav li a.active {
+	background-image: url(top2.png);
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+.header_nav li a:hover {
+	background-image: url(top2.png);
+}
+
+main {
+	margin-top: 40px;
+}
+
+.left_nav {
+	float: left;
+	width: 245px;
+	border: 1px solid; 
+}
+
+.left_nav li {
+	display: block;
+	line-height: 40px;
+	border-bottom: 1px solid black;
+	padding-left: 25px;
+}
+
+.left_nav li a {
+	display: block;
+}
+
+.left_nav li:last-child {
+	border-bottom: none;
+}
+
+.left_nav li a.active {
+	padding-left: 35px;
+	background-color: #f9f9f9;
+}
+
+.left_nav li a:hover {
+	padding-left: 35px;
+	background-color: #f9f9f9;
+}
+
+.content {
+	width: 680px;
+	float: right;
+}
+
+.picture {
+	display: block;
+	width: 680px;
+	height: 400px;
+	border: 1px solid black;
+}
+
+p {
+	margin-top: 40px;
+	padding-left: 25px;
+	padding-right: 30px;
+}
+
+footer {
+	width: 960px;
+	margin-top: 60px;
+	line-height: 40px;
+	background-image: url(footer.png);
+}
+
+.footer_nav li {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+
+.footer_nav li a {
+	display: inline-block;
+	margin-right: 40px;
+	padding-left: 25px;
+	min-width: 80px;
+}
+
+.footer_nav li a.active {
+	text-decoration: underline;
+}
+
+.footer_nav li a:hover {
+	text-decoration: underline;
+}
+
+.last {
+	float: right;
+}
